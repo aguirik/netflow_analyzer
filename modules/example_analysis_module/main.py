@@ -18,9 +18,6 @@ from collections import defaultdict
 #   * q: multiprocessing.Queue - a queue for input netflow packets
 #   * stop_event : multiprocessing.Event - an events that is set when it
 #   * descr: OrderedDict - description from module.descr (can contain module options)
-#       is time to finish all processing (app received signal to exit)
-# Thus run() method is called when the app is ready to supply analysis module
-#  with netflow packets via queue.
 class ExampleAnalysisModule:
     def __init__(self, q, stop_event, descr, *args, **kwargs):
         self.q = q
