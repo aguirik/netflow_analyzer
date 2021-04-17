@@ -208,7 +208,7 @@ if __name__ == '__main__':
                 except BlockingIOError:
                     pass
                 else:
-                    pack = nfp.parse_packet(recv_data)
+                    pack = nfp.parse_netflow_packet(recv_data)
                     if pack:
                         gcfg.packets_processed += 1
                         # Send this packet to all active modules
