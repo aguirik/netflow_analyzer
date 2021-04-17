@@ -18,10 +18,10 @@
     author_email : 'aguirik@unisnet.ru',
 
     options : {
-        ips_threshold : 100,
+        ips_threshold : 1000,
         analysis_interval : 60,
         max_avg_packet_size : 5,
-        min_packets_per_source: 10,
+        min_packets_per_source: 100,
     }
 
 }

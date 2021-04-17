@@ -34,7 +34,6 @@ class SimpleDDoSDetector:
 
     def detect_ddos_targets(self):
         targets = []
-        print(self.ips_state)
         for dst_addr in self.ips_state.keys():
             if len(self.ips_state[dst_addr]) > self.ips_threshold:
                 this_is_it = True
