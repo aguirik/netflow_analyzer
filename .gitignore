@@ -1,0 +1,64 @@
+# logs and temps
+/log
+/tmp
+/temp
+*.log
+
+#IDEs
+.cproject
+.dep/
+.project
+.settings/
+.idea
+*.sublime-workspace
+.vscode/
+
+#Python
+__pycache__
+
+#files being edited
+*~
+*.swp
+
+# make and build files
+*.exe
+*.o
+*.so
+.*.c
+*.tmp.c
+*.obj
+*.exp
+*.ilk
+*.pdb
+*.dll
+*.lib
+*.bak
+a.out
+thumbs.db
+*.lst
+*.o
+*.eep
+*.lss
+*.map
+*.sym
+log.txt
+core
+
+# ignore debugger files
+cachegrind.out.*
+.gdb_history
+*.dSYM
+*.def
+
+# system files
+.DS_Store
+._*
+thumbs.db
+/.symlink
+/.bin
+
+# DBs
+*.suo
+*.VC.db
+*.rsp
+*.db

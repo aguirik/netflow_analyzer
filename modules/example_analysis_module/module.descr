@@ -1,0 +1,26 @@
+#
+#   Example analysis module for netflow analyzer
+#
+#   Detects most frequently used ports
+#
+#   (c) Alexei Guirik, aguirik@unisnet.ru
+
+#
+# Module description (hjson format)
+#
+
+{
+    #
+    # Required attributes
+    #
+
+    'enabled' : true,
+
+    #
+    # Optional attributes
+    #
+
+    'module_name' : 'example_analysis_module',
+
+    'author_email' : 'aguirik@unisnet.ru',
+}

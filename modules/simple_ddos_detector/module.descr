@@ -1,0 +1,27 @@
+#
+# Module description (hjson format)
+#
+
+{
+    #
+    # Required attributes
+    #
+
+    'enabled' : true,
+
+    #
+    # Optional attributes
+    #
+
+    module_name : 'simple_ddos_detector',
+
+    author_email : 'aguirik@unisnet.ru',
+
+    options : {
+        ips_threshold : 100,
+        analysis_interval : 60,
+        max_avg_packet_size : 5,
+        min_packets_per_source: 10,
+    }
+
+}
